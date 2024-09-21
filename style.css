@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(font/KGPrimaryPenmanshipAlt.ttf);
+}
+
+html{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: fuente1;
+    font-size: 22px;
+}
+
+body{
+   
+}
+
+header{
+    background-color: aqua;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+nav{
+    background-color: rgb(0, 149, 255);
+    padding: 15px;
+}
+
+nav a{
+    background-color: rgb(14, 239, 17);
+    color: aliceblue;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover{
+    background-color: white;
+
+}
+
+main{
+    /* background-color: rgb(43, 46, 226); */
+    min-height: 100vh;
+     background-image: url(imagenes/fondo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 30px 0 ;
+    /* background: linear-gradient(to left, lime 28px, red 77%, cyan); */
+} 
+
+footer{
+    background-color: rgb(108, 95, 160);
+}
+.px{
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto 25px;
+    background-color: rgba(130, 29, 225, 0.4);
+    border: 2px solid rgb(46, 4, 85) ;
+}
+
+.cuadro-rem{ /* toma font-size del HTML */
+    width: 31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(29, 124, 225, 0.4);
+    border: 2px solid rgb(4, 13, 85);
+}
+
+.em{
+    font-size: 16px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.cuadro-em{
+    width: 31.25em;
+    height: 18.75em;
+    padding: 1.25em;
+    margin: 1.5625em auto;
+    background-color: rgba(29, 225, 147, 0.4);
+    border: 2px solid rgb(4, 85, 42);
+}
+
+.columnas{
+    display: flex;
+    gap: 3%;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+}
+
+.columnas .dos{
+    width: 32.5%;
+    padding: 0.9335rem;
+}
